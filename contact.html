@@ -7,8 +7,8 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --orange:   #f97316;
-      --orange-dk:#ea6a08;
+      --orange:   #2563eb;
+      --orange-dk:#1d4ed8;
       --dark:     #0f172a;
       --mid:      #1e293b;
       --slate:    #64748b;
@@ -30,11 +30,11 @@
       border: 2px solid transparent;
     }
     .btn-primary { background: var(--orange); color: var(--white); }
-    .btn-primary:hover { background: var(--orange-dk); transform: translateY(-1px); box-shadow: 0 8px 20px rgba(249,115,22,.3); }
+    .btn-primary:hover { background: var(--orange-dk); transform: translateY(-1px); box-shadow: 0 8px 20px rgba(37,99,235,.3); }
     .btn-outline { background: transparent; color: var(--white); border-color: rgba(255,255,255,.4); }
     .btn-outline:hover { border-color: var(--white); background: rgba(255,255,255,.08); }
     .tag {
-      display: inline-block; background: rgba(249,115,22,.12); color: var(--orange);
+      display: inline-block; background: rgba(37,99,235,.12); color: var(--orange);
       font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
       padding: 4px 12px; border-radius: 999px; margin-bottom: 16px;
     }
@@ -63,7 +63,7 @@
     }
     .page-hero::before {
       content: ''; position: absolute; inset: 0;
-      background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(249,115,22,.18) 0%, transparent 70%);
+      background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(37,99,235,.18) 0%, transparent 70%);
     }
     .page-hero-inner { position: relative; z-index: 1; }
     .page-hero h1 { font-size: 3rem; font-weight: 900; line-height: 1.15; margin-bottom: 16px; }
@@ -87,7 +87,7 @@
     .contact-method:hover { border-color: var(--orange); box-shadow: var(--shadow); }
     .contact-method-icon {
       width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0;
-      background: rgba(249,115,22,.1); display: flex; align-items: center;
+      background: rgba(37,99,235,.1); display: flex; align-items: center;
       justify-content: center; font-size: 1.2rem;
     }
     .contact-method h4 { font-size: .95rem; font-weight: 700; color: var(--dark); margin-bottom: 3px; }
@@ -127,7 +127,7 @@
       background: var(--white); transition: border-color .2s, box-shadow .2s; outline: none;
     }
     input:focus, select:focus, textarea:focus {
-      border-color: var(--orange); box-shadow: 0 0 0 3px rgba(249,115,22,.12);
+      border-color: var(--orange); box-shadow: 0 0 0 3px rgba(37,99,235,.12);
     }
     textarea { resize: vertical; min-height: 130px; }
 
@@ -170,7 +170,7 @@
     .team-card:hover { box-shadow: var(--shadow); transform: translateY(-4px); }
     .team-avatar {
       width: 72px; height: 72px; border-radius: 50%; margin: 0 auto 16px;
-      background: linear-gradient(135deg, var(--orange), #fb923c);
+      background: linear-gradient(135deg, var(--orange), #60a5fa);
       display: flex; align-items: center; justify-content: center;
       font-size: 1.4rem; font-weight: 800; color: var(--white);
     }
